@@ -17,7 +17,8 @@ class NewsRequest:
             for data in response.json()['sources']:
                 sources.append(data)
             print(sources)
-            return sources
+        
+        return sources
 
     # def get_articles(self, article):
     #     articles = []
