@@ -1,5 +1,5 @@
 from app import app
-
+# from newsapi import NewsApiClient
 import app
 
 from app import create_app
