@@ -1,8 +1,9 @@
 
+from flask import Flask
 
-
-from config import Config
+# from config import Config
 from pip._vendor import requests
+from flask.config import Config
 
 class NewsRequest:
     def __init__(self):
