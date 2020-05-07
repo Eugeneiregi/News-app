@@ -13,6 +13,6 @@ class News:
 """ Model class for articles which inherits from news """
 
 
-class Articles(News):
-    def __init__(self):
-        super(News, self).__init__()
+# class Articles(News):
+#     def __init__(self):
+#         super(News, self).__init__()
