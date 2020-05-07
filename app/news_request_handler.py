@@ -11,7 +11,7 @@ class NewsRequest:
 
     def get_sources(self):
         sources = []
-        sources_url = 'https://newsapi.org/v2/sources?q={}&apiKey={}'.format(sources, self.API_KEY)
+        sources_url = 'https://newsapi.org/v2/sources?apiKey={}'.format(self.API_KEY)
         response = requests.get(sources_url)
         if response.status_code == 200:
             for data in response.json()['sources']:

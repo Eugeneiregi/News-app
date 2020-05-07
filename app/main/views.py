@@ -6,4 +6,6 @@ sources = NewsRequest.get_sources
 
 @main.route("/")
 def index():
-    return render_template("index.html")
+
+    news_source = sources()
+    return render_template("index.html", sources = news_source)
